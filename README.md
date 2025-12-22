@@ -55,8 +55,9 @@ export default [
 
 <!-- begin auto-generated rules list -->
 
-| Name                                                                                                                     | Description                                                                                                                                             |
+| Name                                                                                                                     | Description                                                                                                                                             |
 | :----------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [array-index-check-undefined](docs/rules/array-index-check-undefined.md)                                                 | Enforce undefined check when accessing array elements by index to prevent runtime errors                                                                |
 | [repository-method-prefix](docs/rules/repository-method-prefix.md)                                                       | The method name in repository should start with `findOne`, `findMany` for read, `create` for creation, `update` for modification, `delete` for deletion |
 | [typeorm-column-should-specify-type](docs/rules/typeorm-column-should-specify-type.md)                                   | TypeORM `Column` annotation should specify a `type` property                                                                                            |
 | [typeorm-nullable-column-should-have-null-union-type](docs/rules/typeorm-nullable-column-should-have-null-union-type.md) | TypeORM nullable column should have `null` union type                                                                                                   |
