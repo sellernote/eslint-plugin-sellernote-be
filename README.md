@@ -1,6 +1,6 @@
-# eslint-plugin-shipda
+# eslint-plugin-sellernote-be
 
-Custom ESLint rules for Sellernote Shipda.
+Custom ESLint rules for Sellernote.
 
 ## Why?
 
@@ -14,10 +14,10 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i -D eslint
 ```
 
-Next, install `eslint-plugin-shipda`:
+Next, install `eslint-plugin-sellernote-be`:
 
 ```
-$ npm install -D eslint-plugin-shipda
+$ npm install -D https://github.com/sellernote/eslint-plugin-sellernote-be
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ $ npm install -D eslint-plugin-shipda
 Add `sellernote` to the plugins section of your configuration file. Note that below configuration examples are for flat-configuration format.
 
 ```js
-import sellernote from 'eslint-plugin-shipda';
+import sellernote from 'eslint-plugin-sellernote-be';
 
 export default [
   {
