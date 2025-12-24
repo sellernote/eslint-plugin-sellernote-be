@@ -25,7 +25,6 @@
   "homepage": "https://github.com/sellernote/eslint-plugin-sellernote-be",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
     "test": "jest",
     "tsup": "tsup ./src/index.ts --outDir lib/"
   },
