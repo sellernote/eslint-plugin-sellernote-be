@@ -1,8 +1,11 @@
 {
-  "name": "eslint-plugin-sellernote-be",
+  "name": "@sellernote/eslint-plugin-sellernote-be",
   "version": "0.1.3",
   "description": "ESLint plugin rules for Sellernote",
   "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "eslint",
     "eslintplugin",
