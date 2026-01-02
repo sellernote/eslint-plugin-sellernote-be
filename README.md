@@ -1,4 +1,6 @@
-# eslint-plugin-sellernote-be
+# DEPLICATED: eslint-plugin-sellernote-be
+
+[sellernote-backend-eslint-plugin](https://github.com/sellernote/sellernote-backend-eslint-plugin)로 이관되었습니다. 이 repository는 곧 제거 예정입니다.
 
 Custom ESLint rules for Sellernote.
 
